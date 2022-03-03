@@ -56,8 +56,12 @@ let allSpeedRace = speedOfFirst + speedOfSecond;
 let RaceAll = allSpeedRace * time;
 console.log(RaceAll);
 
-
-
+// финишная =)
+let time = 2,
+    speedOfFirst = 95,
+    speedOfSecond = 114;
+let result = time * (speedOfFirst +speedOfSecond );
+console.log(result);
 /* 
     Задание 4:
     
@@ -86,15 +90,15 @@ if(randomNumber<20){
     
     Условную конструкцию из задания 4, перепишите с помощью Switch Case
 */
-switch (randomNumber) {
+switch (true) {
     case  randomNumber < 20:
-          console.log("randomNumber меньше 20");
+          console.log('randomNumber меньше 20');
           break;
     case  randomNumber > 50:
-        console.log("randomNumber больше 50");
+        console.log('randomNumber больше 50');
         break;
     default:
-        console.log("randomNumber больше 20, и меньше 50");
+        console.log('randomNumber больше 20, и меньше 50');
 
 }
 
